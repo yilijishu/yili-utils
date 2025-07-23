@@ -1,3 +1,5 @@
 com.yilijishu
 com.yilijishu.utils
 com.yilijishu.utils.exceptions
+com.yilijishu.utils.jackson
+com.yilijishu.utils.result

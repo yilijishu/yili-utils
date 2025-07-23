@@ -14,7 +14,6 @@ import java.text.SimpleDateFormat;
 import java.util.*;
 
 /**
- *
  * Created by yilijishu on 16/11/30.
  */
 @Slf4j
@@ -34,7 +33,7 @@ public class FileUtil {
     /**
      * 文件上传
      *
-     * @param bytes  字节码
+     * @param bytes    字节码
      * @param filePath 文件路径
      */
     public static void fileUpload(byte[] bytes, String filePath) throws BizException {
@@ -56,8 +55,8 @@ public class FileUtil {
      * 文件下载后上传
      *
      * @param urlString url地址
-     * @param savePath 保存的本地路径
-     * @throws IOException  IO错误
+     * @param savePath  保存的本地路径
+     * @throws IOException IO错误
      */
     public static void download(String urlString, String savePath) throws IOException {
         File file = new File(savePath);
@@ -87,8 +86,8 @@ public class FileUtil {
     /**
      * 文件下载
      *
-     * @param outputStream  下载流
-     * @param filePath 文件路径
+     * @param outputStream 下载流
+     * @param filePath     文件路径
      * @throws BizException 抛出通用错误
      */
     public static void fileDownload(OutputStream outputStream, String filePath) throws BizException {
@@ -116,12 +115,12 @@ public class FileUtil {
      * 如果width ＝ 0 走height压缩
      * 如果width ＝ 0 并且 height ＝ 0 不压缩。
      *
-     * @param bytes 图片字节码
-     * @param width 宽度
-     * @param height 高度
-     * @param filePath 文件路径
+     * @param bytes     图片字节码
+     * @param width     宽度
+     * @param height    高度
+     * @param filePath  文件路径
      * @param watermark 是否水印
-     * @param text 文本
+     * @param text      文本
      * @throws BizException 抛出自定义错误
      */
     public static void compressAndWatermark(byte[] bytes, int width, int height, String filePath, boolean watermark, String text) throws BizException {
@@ -177,12 +176,13 @@ public class FileUtil {
     }
 
     /**
-     *  压缩并且水印
-     * @param bytes 字节码
-     * @param width 宽度
-     * @param height 高度
+     * 压缩并且水印
+     *
+     * @param bytes     字节码
+     * @param width     宽度
+     * @param height    高度
      * @param watermark 水印
-     * @param text 水印文字
+     * @param text      水印文字
      * @return 返回压缩后的字节码
      */
     public static byte[] compressAndWatermark(byte[] bytes, int width, int height, boolean watermark, String text) {
@@ -231,12 +231,13 @@ public class FileUtil {
 
     /**
      * 压缩
-     * @param bytes 字节码
-     * @param width 宽度
-     * @param height 高度
-     * @param filePath 文件路径
+     *
+     * @param bytes     字节码
+     * @param width     宽度
+     * @param height    高度
+     * @param filePath  文件路径
      * @param watermark 水印
-     * @param text 文字
+     * @param text      文字
      * @return 压缩后的字段 map
      * @throws BizException 抛出自定义错误
      */
@@ -291,7 +292,7 @@ public class FileUtil {
      * 给出基础路径，且文件后缀。创建文件，并返回文件路径
      *
      * @param basePath 路径
-     * @param suffix 后缀
+     * @param suffix   后缀
      * @return 文件路径
      */
     public static String getRelativePath(String basePath, String suffix) {
@@ -306,7 +307,7 @@ public class FileUtil {
     /**
      * 按照后缀生成随即文件名
      *
-     * @param suffix  后缀
+     * @param suffix 后缀
      * @return 返回文件名
      */
     public static String getFileName(String suffix) {
@@ -321,6 +322,7 @@ public class FileUtil {
 
     /**
      * 获取日期路径
+     *
      * @param createTime 创建时间
      * @return 返回日期路径
      */
@@ -338,27 +340,27 @@ public class FileUtil {
     }
 
     /**
+     * 创建文件夹
+     * @param file 文件夹路径
+     */
+    public static void mkdir(File file) {
+        mkdir(file, false);
+    }
+    /**
      * 创建文件夹,默认的时候认为是文件
      *
-     * @param file  文件
+     * @param file   文件
      * @param isFile true 文件 false 文件夹
      */
-    public static void mkdir(File file, boolean... isFile) {
-        if (isFile.length > 0) {
-            if (isFile[0]) {
-                File tmp = new File(file.getParent());
-                if (!tmp.exists()) {
-                    tmp.mkdirs();
-                }
-            } else {
-                if (!file.exists()) {
-                    file.mkdirs();
-                }
-            }
-        } else {
+    public static void mkdir(File file, boolean isFile) {
+        if (isFile) {
             File tmp = new File(file.getParent());
             if (!tmp.exists()) {
                 tmp.mkdirs();
+            }
+        } else {
+            if (!file.exists()) {
+                file.mkdirs();
             }
         }
     }
@@ -367,7 +369,7 @@ public class FileUtil {
      * 分页获取文件名，(横杠版)
      *
      * @param fileName 必须事XXX.xxx格式
-     * @param page 页数
+     * @param page     页数
      * @return 返回页数文件名
      */
     public static String getFileNameByPage(String fileName, Integer page) {
@@ -419,7 +421,7 @@ public class FileUtil {
      * 分页获取文件名，（下划线版）
      *
      * @param fileName 文件名
-     * @param page 页数
+     * @param page     页数
      * @return 带分页的文件名。
      */
     public static String getFileNameByPageLine(String fileName, Integer page) {
@@ -432,8 +434,9 @@ public class FileUtil {
 
     /**
      * 文件拷贝
-     * @param fromFile  来源文件
-     * @param toFile  存储文件
+     *
+     * @param fromFile 来源文件
+     * @param toFile   存储文件
      */
     public static void copyFile(String fromFile, String toFile) {
         try {
@@ -462,16 +465,39 @@ public class FileUtil {
      * 文件写入.文本写入
      *
      * @param content 内容
-     * @param toFile 存入文件
+     * @param toFile  存入文件
      */
     public static void writeFile(String content, String toFile) {
+
         try {
             File file = new File(toFile);
-            mkdir(file);
+            mkdir(file, true);
             FileWriter fileWriter = new FileWriter(file);
             fileWriter.write(content);
             fileWriter.flush();
             fileWriter.close();
+        } catch (IOException e) {
+            log.error("文件读写失败", e);
+        }
+    }
+
+    /**
+     * 文件写入.文本写入
+     *
+     * @param content 内容
+     * @param toFile  存入文件
+     */
+    public static void writeFileWhenFileNotFound(String content, String toFile) {
+
+        try {
+            File file = new File(toFile);
+            if(!file.exists()) {
+                mkdir(file, true);
+                FileWriter fileWriter = new FileWriter(file);
+                fileWriter.write(content);
+                fileWriter.flush();
+                fileWriter.close();
+            }
         } catch (IOException e) {
             log.error("文件读写失败", e);
         }
@@ -501,7 +527,8 @@ public class FileUtil {
 
     /**
      * 从文件中读取二进制数据
-     * @param fromFile  文件
+     *
+     * @param fromFile 文件
      * @return 返回二进制数组
      */
     @SneakyThrows
@@ -515,7 +542,8 @@ public class FileUtil {
 
     /**
      * 写入二进制数据
-     * @param bytes 字节数组
+     *
+     * @param bytes    字节数组
      * @param fromFile 文件
      */
     @SneakyThrows
@@ -527,7 +555,6 @@ public class FileUtil {
         outputStream.flush();
         outputStream.close();
     }
-
 
 
     /**
