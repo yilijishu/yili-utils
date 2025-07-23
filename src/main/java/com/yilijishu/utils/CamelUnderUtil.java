@@ -1,5 +1,7 @@
 package com.yilijishu.utils;
 
+import org.apache.commons.lang3.StringUtils;
+
 /**
  * 字符下划线转换
  */
@@ -60,17 +62,29 @@ public class CamelUnderUtil {
      * @return 转换后的驼峰式命名的字符串
      */
     public static String camelName(String name, Boolean firstUpper) {
+        return camelName(name, "_", firstUpper);
+    }
+
+    /**
+     * 将下划线大写方式命名的字符串转换为驼峰式。如果转换前的下划线大写方式命名的字符串为空，则返回空字符串。
+     * 例如：HELLO_WORLD - HelloWorld
+     * @param name 转换前的下划线大写方式命名的字符串
+     * @param splitSymbol 连接符号
+     * @param firstUpper 首字母是否大写
+     * @return 转换后的驼峰式命名的字符串
+     */
+    public static String camelName(String name, String splitSymbol, Boolean firstUpper) {
         StringBuilder result = new StringBuilder();
         // 快速检查
         if (name == null || name.isEmpty()) {
             // 没必要转换
             return "";
-        } else if (!name.contains("_")) {
+        } else if (!name.contains(splitSymbol)) {
             // 不含下划线，仅将首字母小写
             return firstUpper ? name.substring(0, 1).toUpperCase() + name.substring(1) : name.substring(0, 1).toLowerCase() + name.substring(1);
         }
         // 用下划线将原始字符串分割
-        String[] camels = name.split("_");
+        String[] camels = name.split(splitSymbol);
         for (String camel : camels) {
             // 跳过原始字符串中开头、结尾的下换线或双重下划线
             if (camel.isEmpty()) {
@@ -88,6 +102,16 @@ public class CamelUnderUtil {
         }
         return result.toString();
     }
-
+    /**
+     * 首字母大写
+     * @param name 名字
+     * @return 返回首字母大写
+     */
+    public static String nameUpper(String name) {
+        if(StringUtils.isNotBlank(name)) {
+            name = name.substring(0,1).toUpperCase() + name.substring(1);
+        }
+        return name;
+    }
 
 }
