@@ -2,6 +2,7 @@
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/YiliCodePathUtils.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/MacUtil.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/exceptions/IORequestBizException.java
+/Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/jackson/LocalDateTimeMapper.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/InvitationCode.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/PackageUtils.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/result/ApiResult.java

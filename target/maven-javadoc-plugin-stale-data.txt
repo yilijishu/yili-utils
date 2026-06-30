@@ -16,7 +16,7 @@
 --add-exports=jdk.compiler/com.sun.tools.javac.util=ALL-UNNAMED
 -author
 -bottom
-'Copyright &#169; 2025. All rights reserved.'
+'Copyright &#169; 2026. All rights reserved.'
 -charset
 'UTF-8'
 -d
@@ -24,13 +24,13 @@
 -docencoding
 'UTF-8'
 -doctitle
-'yili-utils 1.1.2 API'
+'yili-utils 1.1.3 API'
 -linkoffline
 'https://docs.oracle.com/en/java/javase/11/docs/api' '/Users/zhangyang/Documents/projects/yili-utils/target/javadoc-bundle-options'
 -use
 -version
 -windowtitle
-'yili-utils 1.1.2 API'
+'yili-utils 1.1.3 API'
 com.yilijishu.utils
 com.yilijishu.utils.result
 com.yilijishu.utils.exceptions
@@ -48,23 +48,23 @@ com.yilijishu
 /Users/zhangyang/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar = 1576530216000
 /Users/zhangyang/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar = 1614372051000
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java = 1752842796956
-/Users/zhangyang/Documents/projects/yili-utils/target/generated-sources/annotations = 1752843997521
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/constant-values.html = 1753282448929
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/overview-tree.html = 1753282448991
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/index.html = 1753282449030
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/package-search-index.js = 1753282449010
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/jquery-ui.overrides.css = 1753282449040
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/serialized-form.html = 1753282448934
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/index-all.html = 1753282449013
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/allpackages-index.html = 1753282449019
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/deprecated-list.html = 1753282449023
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/member-search-index.js = 1753282449012
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/allclasses.html = 1753282449025
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/script.js = 1753282449034
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/stylesheet.css = 1753282449034
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/overview-summary.html = 1753282449031
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/help-doc.html = 1753282449033
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/element-list = 1753282448903
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/allclasses-index.html = 1753282449018
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/type-search-index.js = 1753282449011
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/search.js = 1753282449035
+/Users/zhangyang/Documents/projects/yili-utils/target/generated-sources/annotations = 1782753913322
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/constant-values.html = 1782753917986
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/overview-tree.html = 1782753918047
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/index.html = 1782753918086
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/package-search-index.js = 1782753918069
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/jquery-ui.overrides.css = 1782753918095
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/serialized-form.html = 1782753917991
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/index-all.html = 1782753918072
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/allpackages-index.html = 1782753918077
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/deprecated-list.html = 1782753918080
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/member-search-index.js = 1782753918070
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/allclasses.html = 1782753918082
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/script.js = 1782753918091
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/stylesheet.css = 1782753918090
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/overview-summary.html = 1782753918087
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/help-doc.html = 1782753918089
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/element-list = 1782753917960
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/allclasses-index.html = 1782753918076
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/type-search-index.js = 1782753918070
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/search.js = 1782753918091
