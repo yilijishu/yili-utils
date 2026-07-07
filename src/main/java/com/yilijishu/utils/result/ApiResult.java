@@ -4,7 +4,7 @@ import lombok.Data;
 
 @Data
 public class ApiResult<T> {
-    public static final int CODE_SUCCESS = 200;
+    public static final int CODE_SUCCESS = 0;
     public static final int CODE_DEFAULT_FAIL = -1;
     public static final int EXCEPTION_CODE = 200500;
     public static final int EXCEPTION_PARAM_CODE = 200503;
