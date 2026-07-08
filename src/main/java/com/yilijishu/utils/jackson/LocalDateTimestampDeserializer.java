@@ -13,6 +13,9 @@ import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * jackson 反序列化 Long转localDateTime
+ */
 @Slf4j
 public class LocalDateTimestampDeserializer extends JsonDeserializer {
 

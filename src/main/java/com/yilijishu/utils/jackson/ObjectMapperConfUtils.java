@@ -17,6 +17,9 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * ObjectMapper解析
+ */
 public class ObjectMapperConfUtils {
 
     public static void config(ObjectMapper objectMapper) {

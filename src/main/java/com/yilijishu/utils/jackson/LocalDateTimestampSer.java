@@ -9,6 +9,9 @@ import java.io.IOException;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
+/**
+ * jackson LocalDateTime 序列化
+ */
 public class LocalDateTimestampSer extends JsonSerializer<LocalDateTime> {
 
     private LocalDateTimeSerializer localDateTimeSerializer;

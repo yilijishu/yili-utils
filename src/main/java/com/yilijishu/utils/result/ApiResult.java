@@ -2,6 +2,13 @@ package com.yilijishu.utils.result;
 
 import lombok.Data;
 
+import java.time.LocalDateTime;
+import java.time.ZoneId;
+
+/**
+ * 返回错误码
+ * @param <T> dto
+ */
 @Data
 public class ApiResult<T> {
     public static final int CODE_SUCCESS = 0;
@@ -20,6 +27,10 @@ public class ApiResult<T> {
     private String message;
     private T data;
     private Long timestamp;
+
+    public ApiResult() {
+        this.setTimestamp(LocalDateTime.now().atZone(ZoneId.of("Asia/Shanghai")).toInstant().getEpochSecond());
+    }
 
     public static <T> ApiResult resultSuccess(T data) {
         ApiResult<T> apiResult = new ApiResult<>();
