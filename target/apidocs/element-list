@@ -1,4 +1,7 @@
 com.yilijishu
+com.yilijishu.aspet
+com.yilijishu.aspet.ann
+com.yilijishu.redis
 com.yilijishu.utils
 com.yilijishu.utils.exceptions
 com.yilijishu.utils.jackson

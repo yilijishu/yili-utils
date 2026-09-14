@@ -8,6 +8,7 @@
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/result/ApiResult.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/exceptions/BizException.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/jackson/LocalDateTimestampDeserializer.java
+/Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/aspet/ann/Tracked.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/jackson/ObjectMapperConfUtils.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/EnumsSetUtil.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/Base64Utils.java
@@ -15,8 +16,10 @@
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/VerifyCodeUtils.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/RsaSha256Util.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/exceptions/RequestBizException.java
+/Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/aspet/BaseAspect.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/FileUtil.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/exceptions/RetryBizException.java
+/Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/aspet/LockAspect.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/ReadFromFile.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/UrlUtils.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/exceptions/OauthException.java
@@ -24,10 +27,12 @@
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/jackson/LocalDateTimestampSer.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/RSAUtils.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/CamelUnderUtil.java
+/Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/aspet/ann/Lock.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/IDGenerator.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/exceptions/TimeOutException.java
+/Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/redis/RedisDataManager.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/package-info.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/exceptions/FeignParserException.java
-/Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/Test.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/LambdaYiliUtils.java
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/utils/MD5Utils.java
+/Users/zhangyang/Documents/projects/yili-utils/src/main/java/com/yilijishu/aspet/LogAspect.java

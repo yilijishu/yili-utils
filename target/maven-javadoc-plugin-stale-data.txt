@@ -1,7 +1,7 @@
 @options
 @packages
 -classpath
-'/Users/zhangyang/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4.jar:/Users/zhangyang/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar:/Users/zhangyang/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4.jar:/Users/zhangyang/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4.jar:/Users/zhangyang/.m2/repository/org/springframework/spring-web/5.3.3/spring-web-5.3.3.jar:/Users/zhangyang/.m2/repository/org/springframework/spring-beans/5.3.3/spring-beans-5.3.3.jar:/Users/zhangyang/.m2/repository/org/springframework/spring-core/5.3.3/spring-core-5.3.3.jar:/Users/zhangyang/.m2/repository/org/springframework/spring-jcl/5.3.3/spring-jcl-5.3.3.jar:/Users/zhangyang/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/Users/zhangyang/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/zhangyang/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar'
+'/Users/zhangyang/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4.jar:/Users/zhangyang/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar:/Users/zhangyang/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4.jar:/Users/zhangyang/.m2/repository/org/springframework/data/spring-data-redis/2.5.4/spring-data-redis-2.5.4.jar:/Users/zhangyang/.m2/repository/org/springframework/data/spring-data-keyvalue/2.5.4/spring-data-keyvalue-2.5.4.jar:/Users/zhangyang/.m2/repository/org/springframework/data/spring-data-commons/2.5.4/spring-data-commons-2.5.4.jar:/Users/zhangyang/.m2/repository/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar:/Users/zhangyang/.m2/repository/org/springframework/spring-expression/5.3.9/spring-expression-5.3.9.jar:/Users/zhangyang/.m2/repository/org/springframework/spring-tx/5.3.9/spring-tx-5.3.9.jar:/Users/zhangyang/.m2/repository/org/springframework/spring-oxm/5.3.9/spring-oxm-5.3.9.jar:/Users/zhangyang/.m2/repository/org/springframework/spring-aop/5.3.9/spring-aop-5.3.9.jar:/Users/zhangyang/.m2/repository/org/springframework/spring-context-support/5.3.9/spring-context-support-5.3.9.jar:/Users/zhangyang/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4.jar:/Users/zhangyang/.m2/repository/org/springframework/spring-web/5.3.3/spring-web-5.3.3.jar:/Users/zhangyang/.m2/repository/org/springframework/spring-beans/5.3.3/spring-beans-5.3.3.jar:/Users/zhangyang/.m2/repository/org/springframework/spring-core/5.3.3/spring-core-5.3.3.jar:/Users/zhangyang/.m2/repository/org/springframework/spring-jcl/5.3.3/spring-jcl-5.3.3.jar:/Users/zhangyang/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/Users/zhangyang/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/zhangyang/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar:/Users/zhangyang/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar:/Users/zhangyang/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar'
 -encoding
 'UTF-8'
 -protected
@@ -24,21 +24,33 @@
 -docencoding
 'UTF-8'
 -doctitle
-'yili-utils 2.0.1 API'
+'yili-utils 2.0.2 API'
 -linkoffline
 'https://docs.oracle.com/en/java/javase/11/docs/api' '/Users/zhangyang/Documents/projects/yili-utils/target/javadoc-bundle-options'
 -use
 -version
 -windowtitle
-'yili-utils 2.0.1 API'
+'yili-utils 2.0.2 API'
+com.yilijishu.redis
 com.yilijishu.utils
 com.yilijishu.utils.result
 com.yilijishu.utils.exceptions
 com.yilijishu.utils.jackson
+com.yilijishu.aspet
+com.yilijishu.aspet.ann
 com.yilijishu
 /Users/zhangyang/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.11.4/jackson-datatype-jsr310-2.11.4.jar = 1607734279000
 /Users/zhangyang/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.11.4/jackson-annotations-2.11.4.jar = 1607731583000
 /Users/zhangyang/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.11.4/jackson-core-2.11.4.jar = 1607731869000
+/Users/zhangyang/.m2/repository/org/springframework/data/spring-data-redis/2.5.4/spring-data-redis-2.5.4.jar = 1628760774000
+/Users/zhangyang/.m2/repository/org/springframework/data/spring-data-keyvalue/2.5.4/spring-data-keyvalue-2.5.4.jar = 1789224217118
+/Users/zhangyang/.m2/repository/org/springframework/data/spring-data-commons/2.5.4/spring-data-commons-2.5.4.jar = 1789224219917
+/Users/zhangyang/.m2/repository/org/springframework/spring-context/5.3.9/spring-context-5.3.9.jar = 1789224236717
+/Users/zhangyang/.m2/repository/org/springframework/spring-expression/5.3.9/spring-expression-5.3.9.jar = 1789224221668
+/Users/zhangyang/.m2/repository/org/springframework/spring-tx/5.3.9/spring-tx-5.3.9.jar = 1789224225682
+/Users/zhangyang/.m2/repository/org/springframework/spring-oxm/5.3.9/spring-oxm-5.3.9.jar = 1789224226779
+/Users/zhangyang/.m2/repository/org/springframework/spring-aop/5.3.9/spring-aop-5.3.9.jar = 1789224236306
+/Users/zhangyang/.m2/repository/org/springframework/spring-context-support/5.3.9/spring-context-support-5.3.9.jar = 1789224236036
 /Users/zhangyang/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.11.4/jackson-databind-2.11.4.jar = 1607733405000
 /Users/zhangyang/.m2/repository/org/springframework/spring-web/5.3.3/spring-web-5.3.3.jar = 1610435110000
 /Users/zhangyang/.m2/repository/org/springframework/spring-beans/5.3.3/spring-beans-5.3.3.jar = 1610435128000
@@ -47,24 +59,26 @@ com.yilijishu
 /Users/zhangyang/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar = 1695178071000
 /Users/zhangyang/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar = 1576530216000
 /Users/zhangyang/.m2/repository/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar = 1614372051000
+/Users/zhangyang/.m2/repository/org/aspectj/aspectjweaver/1.9.7/aspectjweaver-1.9.7.jar = 1624576656000
+/Users/zhangyang/.m2/repository/javax/servlet/javax.servlet-api/4.0.1/javax.servlet-api-4.0.1.jar = 1756869438636
 /Users/zhangyang/Documents/projects/yili-utils/src/main/java = 1752842796956
 /Users/zhangyang/Documents/projects/yili-utils/target/generated-sources/annotations = 1783527117074
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/constant-values.html = 1783527123706
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/overview-tree.html = 1783527123770
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/index.html = 1783527123806
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/package-search-index.js = 1783527123790
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/jquery-ui.overrides.css = 1783527123818
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/serialized-form.html = 1783527123711
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/index-all.html = 1783527123792
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/allpackages-index.html = 1783527123797
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/deprecated-list.html = 1783527123801
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/member-search-index.js = 1783527123790
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/allclasses.html = 1783527123803
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/script.js = 1783527123811
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/stylesheet.css = 1783527123810
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/overview-summary.html = 1783527123807
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/help-doc.html = 1783527123809
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/element-list = 1783527123678
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/allclasses-index.html = 1783527123796
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/type-search-index.js = 1783527123790
-/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/search.js = 1783527123812
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/constant-values.html = 1789391339506
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/overview-tree.html = 1789391339581
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/index.html = 1789391339628
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/package-search-index.js = 1789391339612
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/jquery-ui.overrides.css = 1789391339638
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/serialized-form.html = 1789391339511
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/index-all.html = 1789391339615
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/allpackages-index.html = 1789391339620
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/deprecated-list.html = 1789391339623
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/member-search-index.js = 1789391339613
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/allclasses.html = 1789391339625
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/script.js = 1789391339632
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/stylesheet.css = 1789391339632
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/overview-summary.html = 1789391339629
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/help-doc.html = 1789391339631
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/element-list = 1789391339471
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/allclasses-index.html = 1789391339619
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/type-search-index.js = 1789391339612
+/Users/zhangyang/Documents/projects/yili-utils/target/apidocs/search.js = 1789391339633
